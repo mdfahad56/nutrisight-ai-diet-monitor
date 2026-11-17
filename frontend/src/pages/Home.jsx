@@ -157,14 +157,14 @@ export default function Home() {
               <span className="info-icon">📍</span>
               <div>
                 <strong>Location</strong>
-                <p>NutriSight Technologies & Health Labs</p>
+                <p>ABES Engineering College, Ghaziabad</p>
               </div>
             </div>
             <div className="info-item">
               <span className="info-icon">✉️</span>
               <div>
                 <strong>Email Support</strong>
-                <p>support@nutrisight.app</p>
+                <p>rashid.23b0121204@abes.ac.in</p>
               </div>
             </div>
             <div className="info-item">

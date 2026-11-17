@@ -35,27 +35,7 @@ export default function Analytics() {
   return (
     <div className="analytics-page">
       <h1>Dietary Analytics & AI Food Scan</h1>
-      <p className="subtitle">
-        Visual breakdown of weekly macro metrics and deep-learning food classification.
-      </p>
-
-      <div className="panel">
-        <h3>7-Day Caloric & Macronutrient Trends</h3>
-        <p className="chart-sub">Daily totals calculated across recorded meal items</p>
-        <ResponsiveContainer width="100%" height={260}>
-          <BarChart data={weekly}>
-            <XAxis dataKey="date" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Bar dataKey="calories" name="Calories (kcal)" fill="#2f9e6e" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="protein" name="Protein (g)" fill="#3182ce" radius={[4, 4, 0, 0]} />
-            <Bar dataKey="carbohydrates" name="Carbs (g)" fill="#dd6b20" radius={[4, 4, 0, 0]} />
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-
-      <div className="panel food-scan-panel">
+<div className="panel food-scan-panel">
         <h3>AI Food Recognition Scanner</h3>
         <p>Upload a food photo (.png, .jpg, .webp) to classify items and estimate portion weights.</p>
 
@@ -89,6 +69,29 @@ export default function Analytics() {
           </div>
         )}
       </div>
+
+      
+      <p className="subtitle">
+        Visual breakdown of weekly macro metrics and deep-learning food classification.
+      </p>
+
+      <div className="panel">
+        <h3>7-Day Caloric & Macronutrient Trends</h3>
+        <p className="chart-sub">Daily totals calculated across recorded meal items</p>
+        <ResponsiveContainer width="100%" height={260}>
+          <BarChart data={weekly}>
+            <XAxis dataKey="date" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Bar dataKey="calories" name="Calories (kcal)" fill="#2f9e6e" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="protein" name="Protein (g)" fill="#3182ce" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="carbohydrates" name="Carbs (g)" fill="#dd6b20" radius={[4, 4, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+
+      
     </div>
   );
 }

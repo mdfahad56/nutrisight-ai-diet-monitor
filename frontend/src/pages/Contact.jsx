@@ -39,10 +39,10 @@ export default function Contact() {
               <h2>Reach Out Directly</h2>
               <p>Have an inquiry regarding food recognition accuracy, dietary limits, or API integrations?</p>
               <div className="detail-item">
-                <strong>📧 Email:</strong> <span>support@nutrisight.app</span>
+                <strong>📧 Email:</strong> <span>rashid.23b0121204@abes.ac.in</span>
               </div>
               <div className="detail-item">
-                <strong>🏢 Office:</strong> <span>NutriSight Health Technologies</span>
+                <strong>🏢 Office:</strong> <span>ABES Engineering College, Ghaziabad</span>
               </div>
               <div className="detail-item">
                 <strong>🕒 Support Hours:</strong> <span>Monday – Friday, 9:00 AM – 6:00 PM</span>
