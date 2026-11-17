@@ -1,0 +1,2 @@
+-- SQLAlchemy creates the portable schema at startup. For MySQL, set DATABASE_URL then start the API.
+-- Core tables: users, user_profiles, dietary_limits, restricted_foods, foods, meals, meal_items, alerts.
